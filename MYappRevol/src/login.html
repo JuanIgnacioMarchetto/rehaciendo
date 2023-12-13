@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>messages</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="a2">
+            <h1><a href="./index.html">Jobs Proposals and Questions</a> </h1>
+        </div>
+    </header>
+
+    <section class="containe2r">
+        <form id="my-form" action="https://formsubmit.co/juanignaciomarchetto@gmail.com" method="POST">
+            <h1>Add</h1>
+            
+            <div>
+                <label for="name">Name:</label>
+                <input name="Name" type="text" id="name">
+            </div>
+            <div>
+    <label for="email">Email: </label>
+    <input name="Email" type="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Por favor ingrese un correo electrónico válido">
+
+            </div>
+            <div>
+                <label for="comments">Message:</label>
+                <textarea name="comments" id="name"></textarea>
+            </div>
+            
+            <input class="btn" type="submit" value="Send">
+            <input type="hidden" name="_next" value="https://www.marchetto.ar/">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+
+
+    </section>
+
+
+    <script src="principal.js"></script>
+</body>
+
+</html>
