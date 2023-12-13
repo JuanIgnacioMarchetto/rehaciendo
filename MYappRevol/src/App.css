@@ -94,7 +94,7 @@ img {
 
 @media (min-width: 1200px) {
   li {
-    flex-basis: calc(21% - 20px);
+    flex-basis: calc(15% - 20px);
   }
 }
 
