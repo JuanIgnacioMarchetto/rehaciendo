@@ -26,6 +26,55 @@ function App() {
             <h2>Juan Ignacio Marchetto´s Showcase</h2>
           </div>
         </section>
+        <section className="services">
+          <div className="container grid-3 center">
+            <ul id="region1">
+              <li>
+                <div className="tile">
+                  <figure className="front c1"><img src="/images/Imagen de WhatsApp 2023-01-19 a las 17.24.03.jpg" alt="" /></figure>
+                  <figure className="back c1"><a href="https://foodfinderapp.netlify.app/" target="_blank">FOOD SEARCHING APP</a></figure>
+                </div>
+              
+              </li>
+              <li>
+                <div className="tile">
+                  <figure className="front c1"><img src="/images/Imagen de WhatsApp 2023-01-19 a las 17.24.03.jpg" alt="" /></figure>
+                  <figure className="back c1"><a href="https://foodfinderapp.netlify.app/" target="_blank">FOOD SEARCHING APP</a></figure>
+                </div>
+              
+              </li>
+              <li>
+                <div className="tile">
+                  <figure className="front c1"><img src="/images/Imagen de WhatsApp 2023-01-19 a las 17.24.03.jpg" alt="" /></figure>
+                  <figure className="back c1"><a href="https://foodfinderapp.netlify.app/" target="_blank">FOOD SEARCHING APP</a></figure>
+                </div>
+              
+              </li>
+              <li>
+                <div className="tile">
+                  <figure className="front c1"><img src="/images/Imagen de WhatsApp 2023-01-19 a las 17.24.03.jpg" alt="" /></figure>
+                  <figure className="back c1"><a href="https://foodfinderapp.netlify.app/" target="_blank">FOOD SEARCHING APP</a></figure>
+                </div>
+              
+              </li>
+              <li>
+                <div className="tile">
+                  <figure className="front c1"><img src="/images/Imagen de WhatsApp 2023-01-19 a las 17.24.03.jpg" alt="" /></figure>
+                  <figure className="back c1"><a href="https://foodfinderapp.netlify.app/" target="_blank">FOOD SEARCHING APP</a></figure>
+                </div>
+              
+              </li>
+              <li>
+                <div className="tile">
+                  <figure className="front c1"><img src="/images/Imagen de WhatsApp 2023-01-19 a las 17.24.03.jpg" alt="" /></figure>
+                  <figure className="back c1"><a href="https://foodfinderapp.netlify.app/" target="_blank">FOOD SEARCHING APP</a></figure>
+                </div>
+              
+              </li>
+              
+            </ul>
+          </div>
+        </section>
 
         <section className="services">
           <div className="container grid-3 center">
@@ -35,6 +84,42 @@ function App() {
                   <figure className="front c1"><img src="/images/Imagen de WhatsApp 2023-01-19 a las 17.24.03.jpg" alt="" /></figure>
                   <figure className="back c1"><a href="https://foodfinderapp.netlify.app/" target="_blank">FOOD SEARCHING APP</a></figure>
                 </div>
+              
+              </li>
+              <li>
+                <div className="tile">
+                  <figure className="front c1"><img src="/images/Imagen de WhatsApp 2023-01-19 a las 17.24.03.jpg" alt="" /></figure>
+                  <figure className="back c1"><a href="https://foodfinderapp.netlify.app/" target="_blank">FOOD SEARCHING APP</a></figure>
+                </div>
+              
+              </li>
+              <li>
+                <div className="tile">
+                  <figure className="front c1"><img src="/images/Imagen de WhatsApp 2023-01-19 a las 17.24.03.jpg" alt="" /></figure>
+                  <figure className="back c1"><a href="https://foodfinderapp.netlify.app/" target="_blank">FOOD SEARCHING APP</a></figure>
+                </div>
+              
+              </li>
+              <li>
+                <div className="tile">
+                  <figure className="front c1"><img src="/images/Imagen de WhatsApp 2023-01-19 a las 17.24.03.jpg" alt="" /></figure>
+                  <figure className="back c1"><a href="https://foodfinderapp.netlify.app/" target="_blank">FOOD SEARCHING APP</a></figure>
+                </div>
+              
+              </li>
+              <li>
+                <div className="tile">
+                  <figure className="front c1"><img src="/images/Imagen de WhatsApp 2023-01-19 a las 17.24.03.jpg" alt="" /></figure>
+                  <figure className="back c1"><a href="https://foodfinderapp.netlify.app/" target="_blank">FOOD SEARCHING APP</a></figure>
+                </div>
+              
+              </li>
+              <li>
+                <div className="tile">
+                  <figure className="front c1"><img src="/images/Imagen de WhatsApp 2023-01-19 a las 17.24.03.jpg" alt="" /></figure>
+                  <figure className="back c1"><a href="https://foodfinderapp.netlify.app/" target="_blank">FOOD SEARCHING APP</a></figure>
+                </div>
+              
               </li>
               
             </ul>
