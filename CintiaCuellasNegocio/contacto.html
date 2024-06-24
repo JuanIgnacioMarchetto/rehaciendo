@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: hsl(340, 80%, 94%);
+        }
+        li {
+            list-style: none;
+        }
+        header {
+            background-color: #880e4f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+        }
+
+        nav {
+            background-color: #ad1457;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            flex: 1;
+            text-align: center;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #c2185b;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        #home {
+            background-color: #f8bbd0;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        #services {
+            background-color: #f48fb1;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        #gallery {
+            background-color: #f8bbd0;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        #contact {
+            background-color: #f48fb1;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            max-height: 200px;
+            height: auto;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            height: 60%;
+            padding-bottom: 99%; 
+            height: 0;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #880e4f;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        @media (max-width: 600px) {
+            nav ul li {
+                flex: 100%;
+            }
+
+            nav ul li a {
+                padding: 10px;
+            }
+        }
+        .float{
+            position:fixed;
+            width:60px;
+            height:60px;
+            bottom:40px;
+            right:40px;
+            background-color:#25d366;
+            color:#FFF;
+            border-radius:50px;
+            text-align:center;
+            font-size:30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index:100;
+        }
+
+        .my-float{
+            margin-top:16px;
+        }
+
+        /* Estilo del formulario de contacto */
+        .contact-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #880e4f;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #ad1457;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Formulario de Contacto</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+          
+        </ul>
+    </nav>
+    <section id="contact">
+        <div class="contact-form">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <input type="text" id="name" name="name" placeholder="Nombre" required>
+                <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                <textarea id="message" name="message" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Formulario de Contacto. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            const mailtoLink = `mailto:cintiacuellas9@gmail.com?subject=Contacto de ${name}&body=${message}%0A%0ADe: ${name}%0AEmail: ${email}`;
+            window.location.href = mailtoLink;
+        });
+    </script>
+</body>
+</html>
